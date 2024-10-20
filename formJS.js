@@ -152,7 +152,7 @@ class Form{
      * @param {{}|[{}]} [a={}] Inputs Attributes 
      * @param {String|String[]} [f=''] Fieldset ID
      */
-    addCheckbox(n,v=false,a={}){
+    addCheckbox(n,v=false,a={},f=''){
         if(Array.isArray(n)){
             for(let i=0;i<n.length;i++)
                 this.structure.push({build:'input',input: 'checkbox', name: n[i], value: v[i], attributes:a[i],fieldset: `fieldset#${f[i] ? f[i] : ''}`});

@@ -58,7 +58,13 @@ Here is the list of actions you can use. **Note:** _?_ = optional parameter
       <td>addCheckbox()</td>
       <td><em>InputName</em>, <em>InputValue?</em>, <em>InputAttributes?</em>, <em>FieldsetID?</em></td>
       <td><em>String|String[]</em>, <em>Boolean|Boolean[]</em>, <em>Object|Object[]</em>, <em>String|String[]</em></td>
-      <td>Input=<b>password</b></td>
+      <td>Input=<b>checkbox</b></td>
+    </tr>
+    <tr>
+      <td>addRadio()</td>
+      <td><em>InputName</em>, <em>InputValue?</em>, <em>InputAttributes?</em>, <em>FieldsetID?</em></td>
+      <td><em>String|String[]</em>, <em>Boolean|Boolean[]</em>, <em>Object|Object[]</em>, <em>String|String[]</em></td>
+      <td>Input=<b>radio</b></td>
     </tr>
   </tbody>
 </table>

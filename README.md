@@ -226,7 +226,7 @@ Here is the list of actions you can use. **Note:** _?_ = optional parameter
       <td>addSpace()</td>
       <td><em>Element Target</em>, <em>spaceAttributes?</em>, <em>repeat?</em></td>
       <td><em>String|String[]</em>, <em>Object|Object[]</em>, <em>Number</em></td>
-      <td>\&nbsp;</td>
+      <td>&+nbsp;</td>
     </tr>
   </tbody>
 </table>

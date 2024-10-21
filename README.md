@@ -216,6 +216,23 @@ Here is the list of actions you can use. **Note:** _?_ = optional parameter
       <td><em>String|String[]</em>, <em>String|String[]</em>, <em>Object|Object[]</em>, <em>String|String[]</em></td>
       <td>Output</td>
     </tr>
-    
+    <tr>
+      <td>addBreak()</td>
+      <td><em>Element</em>, <em>breakAttributes?</em>, <em>repeat?</em></td>
+      <td><em>String|String[]</em>, <em>Object|Object[]</em>, <em>Number</em></td>
+      <td>BR</td>
+    </tr>
+    <tr>
+      <td>addBreak()</td>
+      <td><em>Element Target</em>, <em>breakAttributes?</em>, <em>repeat?</em></td>
+      <td><em>String|String[]</em>, <em>Object|Object[]</em>, <em>Number</em></td>
+      <td>BR</td>
+    </tr>
+    <tr>
+      <td>addSpace()</td>
+      <td><em>Element Target</em>, <em>spaceAttributes?</em>, <em>repeat?</em></td>
+      <td><em>String|String[]</em>, <em>Object|Object[]</em>, <em>Number</em></td>
+      <td>BR</td>
+    </tr>
   </tbody>
 </table>

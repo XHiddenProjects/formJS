@@ -230,3 +230,12 @@ Here is the list of actions you can use. **Note:** _?_ = optional parameter
     </tr>
   </tbody>
 </table>
+
+## Options attributes
+`addOptions` will return as an "Option-object" so use this to help for any _option_ prameter
+
+Example:
+```js
+const opt = form.addOptions(['Option 1','Option 2'],['option1','option2']);// Options
+form.addSelect('test',opt);// Creates select
+```

@@ -178,7 +178,13 @@ Here is the list of actions you can use. **Note:** _?_ = optional parameter
       <td>addSelect()</td>
       <td><em>SelectName</em>, <em>SelectOptions</em>, <em>SelectAttributes?</em>, <em>FieldsetID?</em></td>
       <td><em>String|String[]</em>, <em>String|String[]</em>, <em>Object|Object[]</em>, <em>String|String[]</em></td>
-      <td>Input=<b>radio</b></td>
+      <td>Select</td>
+    </tr>
+    <tr>
+      <td>addOption()</td>
+      <td><em>OptionNames</em>, <em>OptionValues</em>, <em>OptionSelected?</em>, <em>optionGroup?</em>, <em>reverseOrder?</em></td>
+      <td><em>String|String[]</em>, <em>String|String[]</em>, <em>Boolean|Boolean[]</em>, <em>String|String[]</em>, <em>Boolean</em></td>
+      <td>Option</td>
     </tr>
   </tbody>
 </table>

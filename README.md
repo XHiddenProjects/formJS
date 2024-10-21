@@ -168,5 +168,17 @@ Here is the list of actions you can use. **Note:** _?_ = optional parameter
       <td><em>String|String[]</em>, <em>String|String[]</em>, <em>Object|Object[]</em>, <em>String|String[]</em></td>
       <td>Input=<b>url</b></td>
     </tr>
+    <tr>
+      <td>addLabel()</td>
+      <td><em>InputName</em>, <em>LabelsText?</em>, <em>LabelsAttributes?</em>, <em>FieldsetID?</em></td>
+      <td><em>String|String[]</em>, <em>String|String[]</em>, <em>Object|Object[]</em>, <em>String|String[]</em></td>
+      <td>Label</td>
+    </tr>
+    <tr>
+      <td>addSelect()</td>
+      <td><em>SelectName</em>, <em>SelectOptions</em>, <em>SelectAttributes?</em>, <em>FieldsetID?</em></td>
+      <td><em>String|String[]</em>, <em>String|String[]</em>, <em>Object|Object[]</em>, <em>String|String[]</em></td>
+      <td>Input=<b>radio</b></td>
+    </tr>
   </tbody>
 </table>

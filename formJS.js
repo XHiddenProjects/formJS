@@ -439,7 +439,7 @@ class Form{
      * Creates a label for input
      * @param {String|String[]} n Selects name
      * @param {[{}]} o Selects Options
-     * @param {{}|[{}]} a Labels attributes
+     * @param {{}|[{}]} a Select attributes
      * @param {String|String[]} [f=''] Fieldset ID
      */
     addSelect(n,o,a={},f=''){
@@ -490,8 +490,8 @@ class Form{
     }
     /**
      * Creates a fieldset
-     * @param {String|String[]} n Inputs name
-     * @param {{}|[{}]} a Labels attributes
+     * @param {String|String[]} n Fieldset ID
+     * @param {{}|[{}]} a Fieldset attributes
      */
     addFieldset(n,a={}){
         if(Array.isArray(n)){
@@ -506,7 +506,7 @@ class Form{
      * @param {String|String[]} [v=''] Legends message 
      * @param {{}|[{}]} [a={}] Legends Attributes
      */
-    addLegend(i,v='',a={}){
+    addLegend(n,v='',a={}){
         if(Array.isArray(n)){
             for(let i=0;i<n.length;i++)
                 this.structure.push({build: 'legend',fieldset: `fieldset#${n[i]}`, value:v[i], attributes: a[i]});

@@ -196,7 +196,26 @@ Here is the list of actions you can use. **Note:** _?_ = optional parameter
       <td>addFieldset()</td>
       <td><em>FieldsetID</em>, <em>fieldsetAttribute?</em></td>
       <td><em>String|String[]</em>, <em>Object|Object[]</em></td>
-      <td>Input=<b>time</b></td>
+      <td>Fieldset</td>
     </tr>
+    <tr>
+      <td>addLegend()</td>
+      <td><em>FieldsetID</em>, <em>LegendsText?</em>, <em>LegendsAttributes?</em></td>
+      <td><em>String|String[]</em>, <em>String|String[]</em>, <em>Object|Object[]</em></td>
+      <td>Legend</td>
+    </tr>
+    <tr>
+      <td>addDatalist()</td>
+      <td><em>DatalistID</em>, <em>DatalistOptions?</em>, <em>DatalistAttributes?</em></td>
+      <td><em>String|String[]</em>, <em>String|String[]</em>, <em>Object|Object[]</em></td>
+      <td>Datalist</td>
+    </tr>
+    <tr>
+      <td>addOutput()</td>
+      <td><em>OutputID</em>, <em>OutputsVars?</em>, <em>OutputAttributes?</em>, <em>FieldsetID?</em></td>
+      <td><em>String|String[]</em>, <em>String|String[]</em>, <em>Object|Object[]</em>, <em>String|String[]</em></td>
+      <td>Output</td>
+    </tr>
+    
   </tbody>
 </table>

@@ -184,7 +184,19 @@ Here is the list of actions you can use. **Note:** _?_ = optional parameter
       <td>addOption()</td>
       <td><em>OptionNames</em>, <em>OptionValues</em>, <em>OptionSelected?</em>, <em>optionGroup?</em>, <em>reverseOrder?</em></td>
       <td><em>String|String[]</em>, <em>String|String[]</em>, <em>Boolean|Boolean[]</em>, <em>String|String[]</em>, <em>Boolean</em></td>
-      <td>Option</td>
+      <td>Option=<b>[...Options]</b></td>
+    </tr>
+    <tr>
+      <td>addTextarea()</td>
+      <td><em>InputName</em>, <em>InputValue?</em>, <em>InputAttributes?</em>, <em>FieldsetID?</em></td>
+      <td><em>String|String[]</em>, <em>String|String[]</em>, <em>Object|Object[]</em>, <em>String|String[]</em></td>
+      <td>Textarea</td>
+    </tr>
+    <tr>
+      <td>addFieldset()</td>
+      <td><em>FieldsetID</em>, <em>fieldsetAttribute?</em></td>
+      <td><em>String|String[]</em>, <em>Object|Object[]</em></td>
+      <td>Input=<b>time</b></td>
     </tr>
   </tbody>
 </table>

@@ -4,7 +4,7 @@ FormJS is a easy JavaScript library that builds and devlops the HTML form.
 ## How to use
 Use this script file
 ```html
-<script src="https://cdn.jsdelivr.net/gh/XHiddenProjects/formJS@1.0.0/formJS.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/XHiddenProjects/formJS@1.0.1/formJS.min.js"></script>
 <script>
 // You can use a file or this script placeholder to write the code
 </script>

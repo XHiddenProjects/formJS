@@ -239,3 +239,9 @@ Example:
 const opt = form.addOptions(['Option 1','Option 2'],['option1','option2']);// Options
 form.addSelect('test',opt);// Creates select
 ```
+
+## Load form
+Use the `load` method to load the form
+```js
+form.load(); //Loads the form
+```

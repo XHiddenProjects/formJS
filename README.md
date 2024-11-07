@@ -4,7 +4,7 @@ FormJS is a easy JavaScript library that builds and devlops the HTML form.
 ## How to use
 Use this script file
 ```html
-<script src="https://cdn.jsdelivr.net/gh/XHiddenProjects/formJS@1.0.3/formJS.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/XHiddenProjects/formJS@1.0.4/formJS.min.js"></script>
 <script>
 // You can use a file or this script placeholder to write the code
 </script>
@@ -236,7 +236,7 @@ Here is the list of actions you can use. **Note:** _?_ = optional parameter
 
 Example:
 ```js
-const opt = form.addOptions(['Option 1','Option 2'],['option1','option2']);// Options
+const opt = form.addOption(['Option 1','Option 2'],['option1','option2']);// Options
 form.addSelect('test',opt);// Creates select
 ```
 
